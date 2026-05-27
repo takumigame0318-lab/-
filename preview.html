@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>自分のホームページ</title>
+
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h1 {
+      color: #66ccff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>こんにちは！</h1>
+  <p>自作ホームページです。</p>
+
+</body>
+</html>
