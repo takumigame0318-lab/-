@@ -1,42 +1,46 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Page</title>
+body{
+  margin:0;
+  background:#111;
+  color:white;
+  font-family:sans-serif;
+}
 
-  <link rel="stylesheet" href="style.css">
-</head>
+.container{
+  max-width:400px;
+  margin:auto;
+  text-align:center;
+  padding:40px 20px;
+}
 
-<body>
+.icon{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-bottom:20px;
+}
 
-  <div class="container">
+h1{
+  margin-bottom:10px;
+}
 
-    <img src="images/icon.png" class="icon">
+.profile{
+  color:#aaa;
+  margin-bottom:30px;
+}
 
-    <h1>あなたの名前</h1>
+.link-btn{
+  display:block;
+  background:#66ccff;
+  color:black;
+  text-decoration:none;
+  padding:15px;
+  margin:15px 0;
+  border-radius:15px;
+  font-weight:bold;
+  transition:0.2s;
+}
 
-    <p class="text">
-      配信・イラスト・LINEスタンプ制作
-    </p>
-
-    <a href="https://x.com/あなたのID" class="link">
-      X (Twitter)
-    </a>
-
-    <a href="https://youtube.com/" class="link">
-      YouTube
-    </a>
-
-    <a href="https://store.line.me/" class="link">
-      LINEスタンプ
-    </a>
-
-    <a href="mailto:example@gmail.com" class="link">
-      Gmail
-    </a>
-
-  </div>
-
-</body>
-</html>
+.link-btn:hover{
+  transform:scale(1.03);
+}
